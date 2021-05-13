@@ -1,0 +1,50 @@
+.post {
+    background-color: white;
+    max-width: 100%;
+    border: 1px solid lightgrey;
+    margin-bottom: 45px;
+}
+.post-image {
+    width: 100%;
+    object-fit: contain;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+.post-text {
+    font-weight: normal;
+    padding: 20px;
+}
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.post-avatar {
+    margin-right: 10px;
+}
+.post-commentBox {
+    display: flex;
+    margin-top: 10px;
+}
+.post-input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    border-top: 1px solid lightgrey;
+}
+.post-button {
+    flex: 0;
+    border: none;
+    color: dodgerblue;
+    background-color: transparent;
+    border-top: 1px solid lightgrey;
+}
+.post-comment {
+    margin-left: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.like {
+    fontSize: 30px;
+    height: 100px;
+}

@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+}
+.app-logo {
+  height: 100px;
+  font-size: 30px;
+}
+.App {
+  background-color: #fafafa;
+  overflow-x: hidden;
+}
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10px;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgrey;
+}
+.app-headerImage {
+  object-fit: contain;
+  height: 75%;
+}
+.app-signup {
+  display: flex;
+  flex-direction: column;
+}
+.app-postsContainer {
+  display: flex;
+  width: 100%;
+}
+.app-posts {
+  padding: 20px;
+  width: 66%;
+}
+.app-profileContainer {
+  width: 33%;
+}
+.modal-logo {
+  padding: 10px;
+}
+
+@media screen and (max-width: 550px) {
+  .app-posts {
+    width: 100%;
+    justify-content: center;
+  }
+  .app-profileContainer {
+    display: none;
+  }
+  .profile-input {
+    width: 50%;
+  }
+}
+
+
